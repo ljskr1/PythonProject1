@@ -1,4 +1,3 @@
-# none return value if return is not written
 def add_two_num(n1, n2):
     """
     this fun will add two no

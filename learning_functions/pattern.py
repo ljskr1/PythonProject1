@@ -28,6 +28,19 @@ def pattern_hollow_square(size):
 pattern_hollow_square(5)
 
 
+def pyramid(row):
+    def progression():
+         return 1 + (row - 1) * 2
+
+    asterics = 1
+    highest_count = progression()
+    for i in range(row):
+        spaces = (highest_count - asterics) // 2
+        print (' ' * spaces + '*' * asterics)
+        asterics = asterics + 2
+
+pyramid(5)
+
 
 
 
