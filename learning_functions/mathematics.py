@@ -69,3 +69,15 @@ def palindrome(numberr):
 
 print(palindrome(145))
 print(palindrome(121))
+
+def factorial(nums):
+    if nums == 0: #edge case
+        return 0
+    if nums == 1:
+        return 1
+    return factorial(nums-1) * nums
+
+print(factorial(5))
+
+fibbonacci
+tower of hanoi
